@@ -95,6 +95,22 @@ nav #publicar_nav a
 {
 	background: white;
 	border-bottom: 3px #22BCE0 solid;
+	position: relative;
+	min-height: 128px;
+}
+#contenido .item p{
+	color: #7A7A7A;
+	font-size: 0.9em;
+}
+#contenido .item .autor_item a{
+	color:#DD4F24;
+	text-decoration: none;
+	font-weight: bold;
+}
+#contenido .item .datos_item .comentarios_item{
+	color: #DD4F24;
+	font-weight: bold;
+	text-decoration: none;
 }
 #contenido .item .imagen_item
 {
@@ -105,7 +121,32 @@ nav #publicar_nav a
 {
 	width: 96px;
 }
+#contenido .item .tag_item{
+	background: #22BCE0;
+	border-radius: 0.5em;
+	color: white;
+	text-decoration: none;
+	padding: 0.2em 0.5em;
+}
 #contenido .item .titulo_item
 {
+	color: #434343;
 	font-size: 1em;
+	padding: 1em;
+	text-decoration: none;
+
+}
+#contenido .item .titulo_item a{
+	text-decoration: none;
+	color: #434343;
+}
+#contenido .item .votacion
+{
+	background: white;
+	border: 2px solid red;
+	margin:3px 0 0 0;
+	position: absolute;
+	top: 100%;
+	width: 96px;
+	text-align: center;
 }
