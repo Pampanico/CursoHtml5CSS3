@@ -1,0 +1,41 @@
+@media screen and (min-width: 768px){
+	body{
+		margin: 0 auto;
+		max-width: 1200px;
+	}
+	#bienvenida{
+		display: block;
+		width: 25%;
+		float: right;
+		border-bottom: 2px solid gray;
+		margin-right: 2%;
+	}
+	#bievenida #mensaje_registro{
+		font-size: 0.8em;
+	}
+	#bienvenida #registro,
+	#bienvenida p,
+	#bienvenida h2{
+		color:#434343;
+		text-align: center;
+	}
+	#bienvenida #registro{
+		display: block;
+		background: #22BCE0;
+		font-size: 1.2em;
+		padding: 0.5em;
+		color: white;
+		text-decoration: none;
+		border-radius: 2px;
+		width: 100%;
+	}
+	#bienvenida h2{
+		color: #454545;
+	}
+	#bienvenida p{
+		font-size: 0.8em;
+	}
+	#contenido{
+		width: 70%;
+	}
+}

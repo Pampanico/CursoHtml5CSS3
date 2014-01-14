@@ -20,6 +20,16 @@ body
 	font-size: 16px;
 	margin: 0;
 }
+footer{
+	background: #434343;
+	color: white;
+	padding: 1em 0;
+	text-align: center;
+	width: 100%;
+}
+footer p{
+	margin: 0;
+}
 header
 {
 	background: #434343;
@@ -125,6 +135,9 @@ nav #publicar_nav a
 	text-decoration: none;
 	display: inline-block;
 }
+#bienvenida{
+	display: none;
+}
 #contenido
 {
 	margin:1em;
@@ -143,8 +156,6 @@ nav #publicar_nav a
 }
 #contenido .item .autor_item a{
 	color:#DD4F24;
-	text-decoration: none;
-	font-weight: bold;
 }
 #contenido .item .datos_item{
 	text-align: right;
@@ -154,6 +165,7 @@ nav #publicar_nav a
 	border-radius: 4px;
 	color: white;
 	font-weight: bold;
+	margin: 0 0 0 2em;
 	text-decoration: none;
 	padding: 4px;
 }
