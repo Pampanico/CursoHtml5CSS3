@@ -160,7 +160,8 @@ nav #publicar_nav a
 #contenido .item .datos_item{
 	text-align: right;
 }
-#contenido .item .datos_item .comentarios_item{
+#contenido .item .datos_item .comentarios_item
+{
 	background: #878787;
 	border-radius: 4px;
 	color: white;
@@ -168,6 +169,15 @@ nav #publicar_nav a
 	margin: 0 0 0 2em;
 	text-decoration: none;
 	padding: 4px;
+}
+#contenido .item .datos_item .comentarios_item:after{
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #878787;
+	content: "";
+	left: 10px;
+	position: absolute;
+	top: 100%;
 }
 #contenido .item .datos_item .guardar_item{
 	margin:0 1em;
