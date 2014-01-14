@@ -146,12 +146,19 @@ nav #publicar_nav a
 	text-decoration: none;
 	font-weight: bold;
 }
+#contenido .item .datos_item{
+	text-align: right;
+}
 #contenido .item .datos_item .comentarios_item{
-	color: #DD4F24;
+	background: #878787;
+	border-radius: 4px;
+	color: white;
 	font-weight: bold;
 	text-decoration: none;
+	padding: 4px;
 }
 #contenido .item .datos_item .guardar_item{
+	margin:0 1em;
 	text-decoration: none;
 }
 #contenido .item .datos_item .guardar_item:after{
@@ -172,6 +179,7 @@ nav #publicar_nav a
 	background: #22BCE0;
 	border-radius: 0.5em;
 	color: white;
+	float: left;
 	text-decoration: none;
 	padding: 0.2em 0.5em;
 }
